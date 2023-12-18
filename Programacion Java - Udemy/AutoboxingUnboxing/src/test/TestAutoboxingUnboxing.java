@@ -14,7 +14,7 @@ public class TestAutoboxingUnboxing {
         Integer entero = 10;
         System.out.println("entero = " + entero);
         System.out.println("entero double = " + entero.doubleValue());
-        
+
         // Ahora creamos la variable entero2 el cual será de tipo primitivo y solo va a tomar el valor del objeto entero, a este proceso se le llama UNBOXING
         int entero2 = entero;
         System.out.println("entero2 = " + entero2);
